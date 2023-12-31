@@ -1,0 +1,238 @@
+:root {
+    --bg-white: #fff;
+    --bg-dark: #000;
+    --bg-light: #ebebeb;
+    --bg-transparent: #00000072;
+    --text-dark: #000;
+    --text-white: #fff;
+    --text-facebook: #17A9FD;
+    --text-instagram: #833AB4;
+    --text-youtube: #c4302b;
+    --text-twitter: #1DA1F2;
+    --text-linkedin: #4682b4;
+    --bg-white-transparent: #ffffffbf;
+    --bg-call: #ff6700;
+    --bg-mail: #BB001B;
+    --bg-website: #4285F4;
+    --bg-whatsapp: #128C7E;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+.facebook {
+    color: var(--text-facebook);
+}
+
+.twitter {
+    color: var(--text-twitter);
+}
+
+.youtube {
+    color: var(--text-youtube);
+}
+
+.linkedin {
+    color: var(--text-linkedin);
+}
+
+.instagram {
+    color: var(--text-instagram);
+}
+
+.text-extra-small {
+    font-size: 0.85em;
+}
+
+.text-small {
+    font-size: 1em;
+}
+
+.text-medium {
+    font-size: 1.5em;
+}
+
+.text-large {
+    font-size: 2em;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-whatsapp {
+    background: var(--bg-whatsapp);
+}
+
+.bg-website {
+    background: var(--bg-website);
+}
+
+.bg-mail {
+    background: var(--bg-mail);
+}
+
+.bg-call {
+    background: var(--bg-call);
+}
+
+.text-whatsapp {
+    color: var(--bg-whatsapp);
+    background: var(--bg-white);
+}
+
+.text-website {
+    color: var(--bg-website);
+    background: var(--bg-white);
+}
+
+.text-mail {
+    color: var(--bg-mail);
+    background: var(--bg-white);
+}
+
+.text-call {
+    color: var(--bg-call);
+    background: var(--bg-white);
+}
+
+.contact-icons a {
+    font-weight: 400 !important;
+    color: var(--text-dark);
+}
+
+.contact-icons img {
+    height: 20px;
+    margin-right: 3px;
+    width: 20px;
+}
+
+.contact-icons span {
+    padding: 5px 15px 8px 15px;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.background {
+    background-image: url(../image/bg/background.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 21ch;
+    position: relative;
+}
+
+.card {
+    background-image: url(../image/bg/theme-background.jpg);
+    background-size: cover;
+    height: 100%;
+    margin: 0 !important;
+    background-position: bottom;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: var(--bg-transparent);
+}
+
+.user-deatils,
+.background .vertical-logo,
+.background .horizontal-logo {
+    position: relative;
+    z-index: 9;
+}
+
+.background .vertical-logo {
+    height: 40px;
+    background: var(--bg-white);
+    width: 40px;
+    border-radius: 5px;
+}
+
+.background .vertical-logo img {
+    border-radius: 5px;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.background .horizontal-logo {
+    width: 100px;
+    background: var(--bg-white);
+    height: 50px;
+    border-radius: 5px;
+}
+
+.background .horizontal-logo img {
+    border-radius: 5px;
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+
+.user-deatils .profile-image {
+    height: 100px;
+    width: 100px;
+}
+
+.user-deatils .profile-image img {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    background: var(--bg-white);
+    object-fit: cover;
+}
+
+.user-deatils .profile-details h1,
+.user-deatils .profile-details p {
+    color: var(--text-white);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.user-deatils .profile-details{
+    width: 60%;
+}
+
+.user-deatils .social-media i {
+    height: 22px;
+    border-radius: 3px;
+    width: 22px;
+    font-size: 13px;
+    padding: 5px;
+    background: var(--bg-white);
+}
+
+.contact-detail,
+.about-company {
+    background: var(--bg-white-transparent);
+    border-radius: 5px;
+}
+
+.contact-detail img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.contact-detail span {
+    color: var(--text-dark);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
