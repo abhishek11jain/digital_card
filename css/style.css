@@ -240,3 +240,6 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.ellips-3{
+    -webkit-line-clamp: 2 !important;
+}
